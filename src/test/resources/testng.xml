@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="classes" thread-count="4">
+    <test name="Order test">
+        <classes>
+            <class name="OrdersTest"/>
+            <class name="RemoveOrderTest"/>
+        </classes>
+    </test>
+    <test name="Market data test">
+        <classes>
+            <class name="MarketDataTest"/>
+        </classes>
+    </test>
+</suite>
